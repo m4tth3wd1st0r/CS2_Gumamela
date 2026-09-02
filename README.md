@@ -1,13 +1,15 @@
 import math
-point_x1 = float(input("Enter the x1: " ))
-point_x2 = float(input("Enter the x2: " ))
-point_y1 = float(input("Enter the y1: " ))
-point_y2 = float(input("Enter the y2: " ))
 
-distance = math.sqrt(pow(point_x2-point_x1, 2))
-point_a = pow(point_x2-point_x1, 2)
-point_b = pow(point_y2-point_y1, 2)
-result = point_a + point_b
-distance = math.sqrt(result)
+# Ask the user to enter the coordinates of the first point
+x1 = float(input("Enter x1: "))
+y1 = float(input("Enter y1: "))
 
-print("The distance is", distance)
+# Ask the user to enter the coordinates of the second point
+x2 = float(input("Enter x2: "))
+y2 = float(input("Enter y2: "))
+
+# Compute the distance using the distance formula
+distance = math.sqrt(math.pow(x2 - x1, 2) + math.pow(y2 - y1, 2))
+
+# Display the result rounded to two decimal places
+print(f"The distance between the two points is: {distance:.2f}")
