@@ -1,7 +1,45 @@
-import math
-x1=float(input("x1:"))
-y1=float(input("y1:"))
-x2=float(input("x2:"))
-y2=float(input("y2:"))
-d=math.sqrt(math.pow(x2-x1,2)+math.pow(y2-y1,2))
-print(d)
+# Distance Between Two Points Calculator
+
+## Description
+
+This program calculates the distance between two points (x1, y1) and (x2, y2) on a 2D plane
+
+using input values and a math library.
+
+## How to Run
+
+1. Open the program file in VS Code, Replit, or Google Colab.
+
+2. Run the program.
+
+3. Enter the values for x1, y1, x2, and y2.
+
+4. Check the distance displayed on the screen.
+
+## Input Needed
+
+- x1
+
+- y1
+
+- x2
+
+- y2
+
+## Sample Output
+
+Enter x1: 2
+
+Enter y1: 3
+
+Enter x2: 7
+
+Enter y2: 8
+
+The distance between the two points is: 7.07
+
+## Author
+
+Name: Matthew Joachim Distor
+
+Section: 8-Gumamela
